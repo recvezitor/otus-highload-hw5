@@ -50,7 +50,6 @@ services:
         condition: service_started
       redis-otus:
         condition: service_started
-
     ports:
       - "8080:8080"
     environment:
